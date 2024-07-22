@@ -1,0 +1,329 @@
+.logo{
+    margin-top: 10px;
+}
+.icon i{
+    margin-right: 40px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.icon{
+    display: flex;
+    justify-content: end;
+}
+
+.bi-book-half{
+    background-color: rgb(245, 237, 196);
+    font-style: normal;
+    border-radius: 6px;
+}
+
+.bi-instagram{
+ color: rgb(235, 132, 149);
+}
+
+.bi-facebook{
+    color: blue;
+}
+
+.bi-linkedin{
+    color: rgb(38, 131, 213);
+}
+
+.navigation .home{
+    color: #2392e6;
+}
+.navigation ul li{
+    display: inline-block;
+   list-style-type: none;
+   padding: 10px;
+   margin-left: 25px;
+   padding-left: 20px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(107, 99, 99);
+    font-size: 18px;
+}
+
+.navigation ul li a:hover{
+    color:#2392e6;
+    box-shadow: 0 1px black;
+}
+
+#travel{
+    background-image:  url(./images/travel.x);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+ #travel .texts{
+    text-align: center;
+    padding: 120px;
+    font-size: 20px;
+    color:#fff;
+}
+
+#travel .texts h2{
+    font-size: 50px;
+    word-spacing: 10px;
+}
+
+#travel .texts .apply-btn button{
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+#cards .select {
+   display: flex;
+   justify-content: center;
+}
+
+#cards .select select{
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    width: 200px;
+    color: rgb(193, 187, 187);
+}
+
+#cards .apply-btn button{
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.apply-btn button{
+    background-color: #2392e6;
+    font-size: 20px;
+    padding: 12px;
+    width: 150px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.apply-btn button:hover{
+    color: #2392e6;
+    background-color: #fff;
+}
+
+#cards .flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#cards .flex h3{
+    font-size: 35px;
+    color: #2392e6;
+}
+
+#cards .area{
+ margin-top: 50px;
+ display: flex;
+}
+#cards .Bee{
+    border-radius: 20px;
+}
+
+#cards .icons{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+#cards .icons i{
+    color:rgb(193, 187, 187) ;
+}
+
+#cards .icons div{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#cards .buttons button{
+   margin-top: 40px;
+   padding: 5px;
+   width: 100px;
+  color: #2392e6;
+    border: 1px solid #2392e6 ;
+    border-radius: 20px;
+}
+
+#cards .buttons button:hover{
+    color: #fff;
+    background-color: #2392e6;
+}
+
+.button{
+    margin-top: 30px;
+}
+
+.cols{
+    margin-top: 30px;
+}
+
+.img{
+    position: relative;
+}
+.price{
+    font-size: 18px;
+   padding: 15px;
+   height: 25px;
+  border-radius: 30px;
+    position: absolute;
+    bottom: -8px;
+    left: 250px;
+    text-align: center;
+
+}
+
+.price1{
+ background-color:#FF9FF3;
+}
+
+.price2{
+background-color: gold;
+}
+
+.price3{
+    background-color:#1DD1A1 ;
+}
+
+.price4{
+    background-color:#00D2D3 ;
+}
+
+.price5{
+    background-color:#FF9FF3 ;
+}
+
+.price6{
+    background-color:#FF6B6B ;
+}
+
+.price7{
+    background-color:#FF9FF3 ;
+}
+
+.price8{
+    background-color:#FECA57 ;
+}
+
+.price9{
+    background-color:#1DD1A1;
+}
+
+.price10{
+    background-color:#00D2D3 ;
+}
+
+#map{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color:black;
+  margin-top: 50px;
+   }
+
+.maps{
+    position: absolute;
+    top: 160px;
+    font-size:45px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+background-color: #2392e6;
+color: #fff;
+border: none;
+padding: 15px;
+border-radius: 10px;
+font-size: 20px;
+}
+
+#feedback .people-img img{
+    border-radius: 50px;
+}
+
+#feedback .people-img{
+    display: flex;
+    margin-left: 5px;
+}
+
+#feedback .people-img .name{
+    margin-top: 45px;
+    margin-left: 20px;
+    background-color: #f0cc7e;
+}
+
+#feedback .people{
+    box-shadow: 2px 2px 2px 2px  rgb(230, 232, 233);
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+#feedback h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+#fast-section{
+    margin-top: 60px;
+    border-top: 1px solid gainsboro;
+}
+
+#fast-section ul li{
+    list-style-type: none;
+    line-height: 27px;
+    color: rgb(80, 79, 79);
+}
+
+#fast-section .first{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 37px;
+    color: black;
+}
+
+#fast-section .logo{
+    margin-top: 20px;
+}
+
+#fast-section .icon{
+   margin-left: 150px;
+    margin-top: 50px;
+}
+
+#fast-section .icon img{
+    margin: 20px;
+}
+
+#footer{
+    background-color: #01A1D1;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
